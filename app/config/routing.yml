@@ -1,3 +1,7 @@
+mega_dev_test:
+    resource: "@MegaDevTestBundle/Resources/config/routing.xml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
